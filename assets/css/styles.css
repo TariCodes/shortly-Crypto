@@ -265,18 +265,17 @@ div.check {
 @keyframes bounce {
   0% {
     transform: translateY(-10px);
+    transition: transform .5s ease;
   }
-  25% {
-    transform: translateY(-20px);
-  }
+ 
   50% {
-    transform: translateY(-25px);
+    transform: translateY(-30px);
+    transition: transform .5s ease;
   }
-  75% {
-    transform: translateY(-20px);
-  }
+
   100% {
     transform: translateY(-10px);
+    transition: transform .5s ease;
   }
 }
 
