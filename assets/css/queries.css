@@ -1,0 +1,45 @@
+/* Media Queries */
+
+/* Mobile screen 430px and below */
+@media screen and (max-width:500px) {
+    .navbar .container{
+        flex-direction: column;
+    }
+    .navbar .navbarNav{
+        background-color: rgba(0,0,0,0.5);
+        padding: 10px;
+        border-radius: 5px;
+    }
+   a.btn-outline{
+    display: none;
+   }
+   .page--contents h1{
+    font-size: 2rem;
+    line-height: 1.3;
+   }
+   .section-title h2, .prop h2, .heading-txt h2{
+    font-size: 1.50rem;
+   }
+   .box-container{
+    flex-direction: column;
+   }
+   .consultant--section .container{
+    flex-direction: column;
+   }
+   .phone-chart{
+    width: 100%;
+   }
+   .host--box{
+    flex-direction: column;
+   }
+   .footer .container{
+    flex-direction: column-reverse;
+    align-items: start;
+    margin-left: 1rem;
+   }
+   /* features */
+   .features-head .container{
+    flex-direction: column;
+    text-align: center;
+   }
+}
