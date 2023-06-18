@@ -53,7 +53,7 @@ a.btn-outline {
   color: var(--bg-primary);
   text-transform: uppercase;
 }
-.navbarNav a:hover {
+.navbarNav a:hover,.navbarNav a:active {
   border-bottom: 1px solid var(--primary-color);
   transition: border-bottom 1s ease;
 }
